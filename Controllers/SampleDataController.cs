@@ -8,7 +8,7 @@ using SampleApp.Model;
 
 namespace SampleApp.Controllers
 {
-    [Route("api/Sample")]
+    [Route("api/Sample")] 
     public class SampleDataController : Controller
     {
         private IConfiguration _config;
